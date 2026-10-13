@@ -9,8 +9,8 @@ Telegram Stars invoices charge a customer Stars to pay the bot; they do not tran
 1. Upload these files to a GitHub repository.
 2. In Railway, create a project from that repository.
 3. Add Railway Variables:
-   - `TELEGRAM_BOT_TOKEN` = BotFather token
-   - `ADMIN_TELEGRAM_ID` = your numeric Telegram user ID
+   - `TELEGRAM_BOT_TOKEN` =8947792850:AAG8Q2FN0FUn5spHoGCXy8RuRzTKr4pQf9Q
+   - `ADMIN_TELEGRAM_ID` =5291943945
    - `SUPPORT_CONTACT` = optional, defaults to `@os3ma`
    - `DATABASE_PATH` = optional; for persistence set this to a file path on a mounted Railway volume, e.g. `/data/nexus_stars.sqlite3`
 4. Attach a persistent volume mounted at `/data` if using the path above.
